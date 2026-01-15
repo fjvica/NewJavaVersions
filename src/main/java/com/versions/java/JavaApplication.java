@@ -23,11 +23,8 @@ public class JavaApplication implements CommandLineRunner {
 		String ejemplo = scanner.nextLine();
 
 		// Según la versión y el ejemplo, llamamos a la clase correspondiente
-		if (ejemplo.equals("1.1")) {
-			com.versions.java.Java9.ColeccionesInmutables.ColeccionesInmutablesApplication.ejecutar();
-		} else {
-			System.out.println("Ejemplo no implementado aún.");
-		}
+
+		com.versions.java.Java9.ColeccionesInmutables.ColeccionesInmutablesApplication.ejecutar();
 
 		scanner.close();
 	}
