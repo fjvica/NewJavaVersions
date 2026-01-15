@@ -24,7 +24,7 @@ public class JavaApplication implements CommandLineRunner {
 
 		// Según la versión y el ejemplo, llamamos a la clase correspondiente
 
-		com.versions.java.Java9.ColeccionesInmutables.ColeccionesInmutablesApplication.ejecutar();
+		com.versions.java.Java9A11.ColeccionesInmutables.ColeccionesInmutablesApplication.ejecutar();
 
 		scanner.close();
 	}
